@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select:none;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+
+.none {
+	display: none;
+}
+
+button {
+	color: #fff;
+	background-color: rgba(1,1,1,0);
+	font-size: 50px;
+	border:2px solid #fff;
+	width: 250px;
+	height: 100px;
+	text-align: center;
+	border-radius: 30px;
+	animation:anniu 1s infinite alternate linear;
+}
+@keyframes anniu {
+	from {
+		width: 255px;
+		height: 105px;
+	}
+	to {
+		width: 250px;
+		height: 100px;
+	}
+}
+#container {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-image:linear-gradient(92deg,#f35626,#feab3a);
+	background-image:-webkit-linear-gradient(92deg,#f35626,#feab3a);
+	animation:hue 20s infinite alternate linear;
+}
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(-180deg);
+  }
+}
+
+#div1 {
+	#contant {
+		position: relative;
+		top: 100px;
+		.title {
+			color: #fff;
+			font-size: 80px;
+			animation:dong 40s infinite alternate linear;
+		}
+		p {
+			color: #fff;
+			font-size: 60px;
+			// animation:dong 40s infinite alternate linear;
+		}
+		
+	}
+
+	@keyframes dong {
+		0% {
+			font-size: 82px;
+		}
+		25% {
+			font-size: 85px;
+		}
+		50% {
+			font-size: 83px;
+		}
+		100% {
+			font-size: 80px;
+		}
+	}
+	#caozuo {
+		position: fixed;
+		bottom: 200px;
+		left: 50%;
+		transform: translateX(-50%);
+		
+		p {
+			position: relative;
+			top: 20px;
+			color: #fff;
+			font-size: 30px;
+			text-align: center;
+		}
+	}
+
+	
+}
+
+#div2 {
+	#contant {
+		position: relative;
+		top: 100px;
+		p {
+			color: #fff;
+			font-size: 50px;
+		}
+	}
+	input {
+		margin-top: 20px;
+		width: 400px;
+		height: 80px;
+		color: #999;
+		line-height: 80px;
+		font-size: 40px;
+		text-align: center;
+		border:1px solid #f35626;
+	}
+	#caozuo {
+		position: fixed;
+		bottom: 300px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+#div3 {
+	#contant {
+		position: relative;
+		top: 100px;
+		p {
+			color: #fff;
+			font-size: 40px;
+		}
+	}
+	#caozuo {
+		position: fixed;
+		bottom: 300px;
+		left: 50%;
+		transform: translateX(-50%);
+		button {
+			width: 800px;
+			height: 100px;
+			animation:hue 1s infinite alternate linear;
+			margin-bottom: 25px;
+		}
+	}
+}
+
+#ans1 {
+	
+}
+
+// 所有返回按钮
+
+.answer {
+	#contant {
+		position: relative;
+		top: 100px;
+		p {
+			color: #fff;
+			font-size: 40px;
+		}
+
+		ul{
+			color: #fff;
+			font-size: 40px;
+			margin: 0 auto;
+
+		}
+	}
+	#caozuo {
+		position: fixed;
+		bottom: 300px;
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+	button {
+		width: 100px;
+		height: 100px;
+		font-size: 40px;
+		border-radius: 100px;
+		animation:hue 1s infinite alternate linear;
+	}
+
+	#touming {
+		position: fixed;
+		bottom: 0px;
+		width: 100%;
+		height: 280px;
+		background-color: ;
+		text-align: center;
+		p {
+			position: fixed;
+			top: 100px;
+			color: #fff;
+			font-size: 80px;
+			text-align: center;
+		}
+	}
+}
+
+
+// 制作旋转效果
+.xuanzhuan {
+	animation:xuanzhuan 2s infinite  linear;
+}
+@keyframes xuanzhuan {
+	from {
+		transform: rotate(0deg);
+	
+	}
+	to {
+		transform: rotate(360deg);
+		
+	}
+}
+
+// 最后的表单
+
+#biaodan {
+	#contant{
+		position: relative;
+		top: 100px;
+		text-align: center;
+		p {
+			color: #fff;
+			font-size: 30px
+		}
+		input {
+			margin-top: 20px;
+			width: 400px;
+			height: 50px;
+			color: #FFF;
+			line-height: 50px;
+			font-size: 30px;
+			text-align: center;
+			border:1px solid #f35626;
+		}
+		textarea {
+			margin-top: 20px;
+			width: 400px;
+			height: 400px;
+			font-size: 30px;
+			text-align: center;
+			border:1px solid #f35626;
+		}
+	}
+
+
+}
+#yuanwang {
+	#contant {
+		position: relative;
+		top: 100px;
+		text-align: center;
+		p {
+			color: #fff;
+			font-size: 30px
+		}
+		textarea {
+			margin-top: 20px;
+			width: 400px;
+			height: 400px;
+			font-size: 30px;
+			text-align: center;
+			border:1px solid #f35626;
+		}
+	}
+	#caozuo {
+		position: fixed;
+		bottom: 300px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+#wanan {
+	text-align: center;
+	font-size: 400px;
+	color: #fff;
+}
+
+
